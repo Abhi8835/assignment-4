@@ -1,8 +1,8 @@
-lst = [2,4,8,5,7,1,2,3,6,9,7]
+lst = [85,47,65,95,22,88,11,77,4]
 def cube(lst):
-    return lst*3
+    return lst**2
 data = list(map(cube,lst))
 print(data)
 
-data = list(map(lambda lst : lst*3,lst))
+data = list(map(lambda lst : lst**2,lst))
 print (data)
